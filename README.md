@@ -1,13 +1,13 @@
-# SPEEDEALING DISTRIBUTED ERP & CRM
+# CRM DISTRIBUTED ERP & CRM
 
-Speedealing ERP & CRM is a modern software to manage yours companies or foundations activities (contacts, suppliers, invoices, orders, stocks, agenda, ...).It's an opensource software (wrote with PHP language) designed for distant small and medium companies, foundation and freelances. You can freely install, use and distribute it as an offline application or as a web application to use it from every internet access and media.
+CRM ERP & CRM is a modern software to manage yours companies or foundations activities (contacts, suppliers, invoices, orders, stocks, agenda, ...).It's an opensource software (wrote with PHP language) designed for distant small and medium companies, foundation and freelances. You can freely install, use and distribute it as an offline application or as a web application to use it from every internet access and media.
 
 
 ## Philosophy
 
-Speedealing is a fork compatible and migrating from Dolibarr (www.dolibarr.org).
+CRM is a fork compatible and migrating from Dolibarr (www.dolibarr.org).
 
-Speedealing is now using NoSQL database to replace old MySql and Postgresql. We can now use it in a distribute environnement and synchronisation.
+CRM is now using NoSQL database to replace old MySql and Postgresql. We can now use it in a distribute environnement and synchronisation.
 The database used is CouchDB (couchdb.apache.org) a NoSQL oriented document. This new database will be synchronise with iOS an Android application.
 
 ## WHAT'S NEW
@@ -16,7 +16,7 @@ See ChangeLog file found into package.
 
 
 
-## WHAT SPEEDEALING CAN DO
+## WHAT CRM CAN DO
 
 ### Main modules/features:
 
@@ -45,7 +45,7 @@ See ChangeLog file found into package.
 - Third parties or products categories 
 - ClickToDial phone numbers
 - manage one or multi-company/foundation
-- synchronisation and filtering between different speedealing
+- synchronisation and filtering between different CRM
 - Geolocalisation search
 - RSS
 
@@ -59,15 +59,15 @@ See ChangeLog file found into package.
 - Code is highly customizable (a lot of use of modules and submodules).
 - Works with PHP 5.3 or higher.
 - An easy to understand and maintain code (PHP with no heavy frameworks).
-- A trigger architecture to allow you to make Speedealing business events run PHP code to update your own information system.
+- A trigger architecture to allow you to make CRM business events run PHP code to update your own information system.
 - "NPR VAT Rate" (French particularity for managing VAT in DOM-TOM called "Non Perçue Récupérable").
 
-## WHAT SPEEDEALING CAN'T DO YET (TODO LIST)
+## WHAT CRM CAN'T DO YET (TODO LIST)
 
-This is features that Speedealing does not support completely yet:
+This is features that CRM does not support completely yet:
 
 - No accountancy (only bank management).
-- Speedealing manage one currency at once (mono-currency).
+- CRM manage one currency at once (mono-currency).
 - Does not support double VAT (Federal / provincial) for Canada.
 - Tasks on module project can't have dependencies between each other.
-- Speedealing does not include any Webmail.
+- CRM does not include any Webmail.
