@@ -117,5 +117,5 @@ Voici un liste de fonctionnalites pas encore gérées par CRM:
 - Ne gère pas la double tva (Fédérale / provinciale) du canada.
 - CRM ne contient pas de module de Gestion de la paie.
 - Les taches du module de gestion de projets n'ont pas de dépendance entre elle.
-- Speedealing ne contient pas de Webmail.
-- Speedealing ne fait pas le café (pas encore). 
+- CRM ne contient pas de Webmail.
+- CRM ne fait pas le café (pas encore). 
