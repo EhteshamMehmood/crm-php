@@ -3,20 +3,20 @@ README (french)
 Documentation démarrage rapide
 --------------------------------
 
-1) Installer Speedealing
-2) Mettre à jour Speedealing depuis une ancienne version
+1) Installer CRM
+2) Mettre à jour CRM depuis une ancienne version
 3) Ce qui est nouveau dans cette version
-4) Ce que peux faire Speedealing
-5) Ce que ne peux pas faire Speedealing (pas encore)
+4) Ce que peux faire CRM
+5) Ce que ne peux pas faire CRM (pas encore)
 
 
-I - INSTALLER SPEEDEALING
+I - INSTALLER CRM
 ----------------------
 
 Si vous avez déjà installé un serveur Web avec PHP et une base de donnée CouchDB,
-vous pouvez installer Speedealing avec cette version de la manière suivante:
+vous pouvez installer CRM avec cette version de la manière suivante:
 
-- Copier le répertoire "speedealing" et son contenu dans la racine de votre serveur
+- Copier le répertoire "CRM" et son contenu dans la racine de votre serveur
   web, ou bien copier le répertoire sur le serveur et configurer ce serveur pour
   utiliser "dolibarr/htdocs" comme racine d'un nouveau virtual host (ce second 
   choix requiert des compétences et habilitations en administration du serveur
@@ -26,9 +26,9 @@ vous pouvez installer Speedealing avec cette version de la manière suivante:
   en lecture et écriture pour le user du serveur web (les permissions en 
   écriture seront supprimées une fois l'installation terminée).
 
-- Depuis votre navigateur, appeler la page "install/" de speedealing. L'url dépend 
+- Depuis votre navigateur, appeler la page "install/" de crm. L'url dépend 
   du choix fait à la première etape:
-   http://localhost/speedealing/htdocs/install/
+   http://localhost/crm/htdocs/install/
   ou
    http://yourvirtualhost/install/
    
@@ -36,11 +36,11 @@ vous pouvez installer Speedealing avec cette version de la manière suivante:
 
 
 
-II - METTRE A JOUR SPEEDEALING
+II - METTRE A JOUR CRM
 ---------------------------
 
-Pour mettre a jour Speedealing depuis une vieille version vers celle ci:
-- Ecraser les vieux fichiers dans le vieux repertoire 'speedealing' par les fichiers
+Pour mettre a jour CRM depuis une vieille version vers celle ci:
+- Ecraser les vieux fichiers dans le vieux repertoire 'crm' par les fichiers
   fournis dans ce nouveau package.
   
 - Si vous venez d'une version x.y.z vers x.y.w (seul le 3eme chiffre varie),
@@ -50,7 +50,7 @@ Pour mettre a jour Speedealing depuis une vieille version vers celle ci:
   ou y varient, vous devez appelez la page "install/" de migration dans votre 
   navigateur (ceci doit se faire automatiquement au premier accès de l'application).
   Ce sera une URL du genre:
-   http://localhost/speedealing/htdocs/install/index.php
+   http://localhost/crm/htdocs/install/index.php
   ou
    http://yourvirtualhost/install/index.php
 
@@ -65,7 +65,7 @@ Voir fichier ChangeLog.
 
 
 
-IV - CE QUE SPEEDEALING PEUT FAIRE
+IV - CE QUE CRM PEUT FAIRE
 -------------------------------
 
 Modules principaux:
@@ -90,7 +90,7 @@ Autres modules:
 - Gestion de marque-pages
 - Agenda
 - Point de vente/Caisse enregistreuse
-- Fonctions d'EMailing de masses vers les clients, prospect ou utilisateurs Speedealing
+- Fonctions d'EMailing de masses vers les clients, prospect ou utilisateurs CRM
 - Rapports
 - Fonctions d'exports
 - Connectivité LDAP
@@ -108,14 +108,14 @@ Miscellanous:
 - Compatible avec toutes les offres Cloud du marché respectant les prérequis MySQL et PHP. 
 
 
-V - CE QUE SPEEDEALING NE PEUT PAS FAIRE (TACHES A FAIRE)
+V - CE QUE CRM NE PEUT PAS FAIRE (TACHES A FAIRE)
 ------------------------------------------------------
-Voici un liste de fonctionnalites pas encore gérées par Speedealing:
+Voici un liste de fonctionnalites pas encore gérées par CRM:
 - Pas de compta analytique (uniquement gestion de trésorerie).
-- Speedealing ne gère qu'une seule monnaie à la fois (mono-devise).
-- Speedealing ne gère en standard qu'une société/institution/association (mono-société). Pour en gérer plusieurs (comme vos filiales), il faut, soit faire plusieurs installations de Speedealing, soit installer le module MutliCompany qui permet de gérer n société/institutions/associations dans une seule instance par une isolation logique des données.
+- CRM ne gère qu'une seule monnaie à la fois (mono-devise).
+- CRM ne gère en standard qu'une société/institution/association (mono-société). Pour en gérer plusieurs (comme vos filiales), il faut, soit faire plusieurs installations de CRM, soit installer le module MutliCompany qui permet de gérer n société/institutions/associations dans une seule instance par une isolation logique des données.
 - Ne gère pas la double tva (Fédérale / provinciale) du canada.
-- Speedealing ne contient pas de module de Gestion de la paie.
+- CRM ne contient pas de module de Gestion de la paie.
 - Les taches du module de gestion de projets n'ont pas de dépendance entre elle.
 - Speedealing ne contient pas de Webmail.
 - Speedealing ne fait pas le café (pas encore). 
